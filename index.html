@@ -10,5 +10,14 @@
     <body>
         <h1>El Baroja Digital</h1>
         <p>Diario de la comunidad del IES Pío Baroja desde 1999</p>
+        <p>Jueves, 22 de octubre de 2026   ·  Edición Madrid   ·  Año XXVII · Número 8.912</p>
+        <h3>Tecnología · Infraestructura</h1>
+        <h2>El servidor del instituto resiste la avalancha de matrículas gracias a una caché de 200 líneas</h2>
+        <p>Dos alumnos de 2º de DAM detectaron que cada consulta a la secretaría virtual leía el mismo fichero XML de 40 MB. Su parche redujo el tiempo de respuesta de <strong>nueve segundos a 180 milisegundos.</strong></p>
+        <p>El lunes a las 9:00 se abrió el plazo de matrícula y, en menos de un cuarto de hora, la secretaría virtual dejó de responder. El origen no era la falta de memoria ni el ancho de banda: cada petición abría, analizaba y descartaba el mismo documento <abbr title="XML: eXtensible Markup Language">XML</abbr> con la oferta de módulos, más de 40 MB de etiquetas que nadie había tocado desde 2019.</p>
+        <p>La solución fue mantener el documento en memoria y volver a leerlo solo cuando el fichero cambia. "No inventamos nada; es lo que hace cualquier servidor en producción", explica <q>Lucía Navarro</q>, una de las autoras. El departamento de Informática estudia ahora pasar la oferta a <abbr title="JavaScript Object
+Notation">JSON</abbr>.</p>
+        <p><strong>Por Marta Robles · 8 min de lectura</strong></p>
     </body>
 </html>
+
